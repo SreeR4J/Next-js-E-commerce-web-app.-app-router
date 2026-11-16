@@ -1,0 +1,76 @@
+.about-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 45px 5%;
+}
+
+.about-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 45px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.about-card h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.about-intro {
+  text-align: center;
+  color: #777;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.about-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin: 25px 0 10px;
+}
+
+.about-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #777;
+  margin: 0;
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #0d6efd;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 9px;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #0b5ed7;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .about-page {
+    padding: 25px 15px;
+  }
+
+  .about-card {
+    padding: 25px 20px;
+  }
+
+  .about-card h1 {
+    font-size: 30px;
+  }
+}

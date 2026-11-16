@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +23,93 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+.home-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 45px 5%;
+}
+
+.home-hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.home-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.home-hero p {
+  font-size: 17px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  display: inline-block;
+  background: #0d6efd;
+  color: white;
+  padding: 13px 28px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #0b5ed7;
+  transform: translateY(-3px);
+}
+
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card h3 {
+  color: #222;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    padding: 65px 20px;
+  }
+
+  .home-hero h1 {
+    font-size: 30px;
+  }
+
+  .home-features {
+    grid-template-columns: 1fr;
+  }
 }
