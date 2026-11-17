@@ -95,10 +95,10 @@ export default async function Home() {
               </Link>
 
               <Link
-                href="/aboutUs"
+                href="#featuredproducts"
                 className="rounded-lg border border-gray-300 px-8 py-3 font-semibold text-gray-800 transition hover:bg-white"
               >
-                About Us
+                Featured Products
               </Link>
 
             </div>
@@ -239,7 +239,7 @@ export default async function Home() {
 
 
       {/* FEATURED PRODUCTS SECTION */}
-      <section className="mx-auto max-w-7xl px-6 py-16">
+      <section className="mx-auto max-w-7xl scroll-mt-24 px-6 py-16" id="featuredproducts">
 
         <div className="mb-10 flex flex-wrap items-center justify-between gap-4">
 
