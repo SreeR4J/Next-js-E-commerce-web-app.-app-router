@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaangikkoo",
+  title: "Vaangikkoo | Online Shopping",
   description: "Shop your favourite products at Vaangikkoo.",
 };
 
